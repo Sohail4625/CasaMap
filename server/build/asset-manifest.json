@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d860f8f9.css",
+    "main.js": "/static/js/main.3e8918e2.js",
+    "static/media/marker.png": "/static/media/marker.c705f519dc4599a4a381.png",
+    "static/media/Google-Symbol.png": "/static/media/Google-Symbol.85762a12f6b32d587744.png",
+    "static/media/DeleteImage.jpeg": "/static/media/DeleteImage.d5dea49fd9083edb5b1d.jpeg",
+    "static/media/OIP.jpeg": "/static/media/OIP.370ddbf1765874f4d021.jpeg",
+    "index.html": "/index.html",
+    "main.d860f8f9.css.map": "/static/css/main.d860f8f9.css.map",
+    "main.3e8918e2.js.map": "/static/js/main.3e8918e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d860f8f9.css",
+    "static/js/main.3e8918e2.js"
+  ]
+}
