@@ -76,6 +76,7 @@ function InputHouse() {
         <p>.</p>
         <label className="mx-2 mt-10" htmlFor="houseName">Name of the Property:</label>
         <input
+        placeholder="Name.."
         className="lg:mt-8 mt-10 border-2 border-black rounded-lg"
           type="text"
           id="houseName"
