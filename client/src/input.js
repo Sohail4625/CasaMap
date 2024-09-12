@@ -36,7 +36,6 @@ function InputHouse() {
     images?.forEach((image) => {
       formData.append('images', image);
     });
-    console.log(images.length);
     try {
       const response = await fetch("/api/addProperty", {
         method: "POST",
@@ -48,6 +47,9 @@ function InputHouse() {
       if(response.ok){
         setMessage("Property added successfully");
         navigate("/")
+      }
+      else {
+        setMessage("Error adding property, provide complete address");
       }
       
     } catch (error) {

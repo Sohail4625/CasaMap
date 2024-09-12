@@ -7,8 +7,6 @@ const passport = require("passport");
 const mongoose = require("./dbconnect");
 const app = express();
 app.use(express.static(path.join(__dirname, 'build')));
-
-
 app.use(cors());
 const routes = require("./router");
 app.use(express.json());
