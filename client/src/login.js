@@ -16,8 +16,10 @@ const Login = () => {
     if (respond.ok) {
       const resjson = await respond.json();
       console.log(resjson.message);
-      setResponse(resjson.message)
-      navigate("/")
+      const token = resjson.message;
+      localStorage.setItem("jwtToken",token);
+      setResponse(resjson.message);
+      navigate("/");
     }
   };
   const handleGoogle = async (event) => {
